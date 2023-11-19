@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Прием",
+  "name": "IIS111ПриемE",
+  "className": "ПриемE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-111-прием",
+      "modelProjection": "ПриемE"
+    }
+  ]
+}

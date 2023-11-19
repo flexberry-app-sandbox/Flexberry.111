@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-111-подразделения-e",
+  "editForm": "i-i-s-111-подразделения-e",
+  "external": false,
+  "caption": "Подразделения",
+  "name": "IIS111ПодразделенияL",
+  "className": "ПодразделенияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-111-подразделения",
+      "modelProjection": "ПодразделенияL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-111-таблица-e",
+  "editForm": "i-i-s-111-таблица-e",
+  "external": false,
+  "caption": "Таблица",
+  "name": "IIS111ТаблицаL",
+  "className": "ТаблицаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-111-таблица",
+      "modelProjection": "ТаблицаL"
+    }
+  ]
+}

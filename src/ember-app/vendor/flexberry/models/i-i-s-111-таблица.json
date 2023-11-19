@@ -1,0 +1,72 @@
+﻿{
+  "name": "IIS111Таблица",
+  "modelName": "i-i-s-111-таблица",
+  "className": "Таблица",
+  "nameSpace": "IIS.111",
+  "parentModelName": "i-i-s-111-расчет",
+  "parentClassName": "Расчет",
+  "attrs": [
+    {
+      "name": "заработок_год",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "пособие",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "срзаработок",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТаблицаE",
+      "modelName": "i-i-s-111-таблица",
+      "attrs": [
+        {
+          "name": "пособие",
+          "caption": "Пособие",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТаблицаL",
+      "modelName": "i-i-s-111-таблица",
+      "attrs": [
+        {
+          "name": "пособие",
+          "caption": "Пособие",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
